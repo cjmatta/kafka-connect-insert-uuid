@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.cjmatta.kafka.connect.smt</groupId>
-    <artifactId>AddUuid</artifactId>
+    <artifactId>InsertUuid</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,6 +26,12 @@
             <groupId>org.apache.kafka</groupId>
             <artifactId>connect-transforms</artifactId>
             <version>${kafkaconnect.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
